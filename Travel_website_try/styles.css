@@ -1,0 +1,141 @@
+body {font-family: sans-serif;}
+
+h1 {
+	font-size: 20px;
+}
+
+header {
+	border-bottom: thin solid silver;
+}
+
+table img {
+	margin-left: 20pt;
+}
+
+table img:hover {
+	url("images/loupe.png");
+}
+
+#login-button {
+	border: none;
+	background-color: white;
+	font-size: 16px;
+}
+
+#signup-button {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 5pt;
+	padding: 5pt 10pt;
+	margin-right: 10pt;
+}
+
+
+/*----------------------NAVIGATION------------------------------*/
+nav [type=button] {
+	background-color: white;
+	margin-left: 5pt;
+	padding: 5pt 10pt 5pt 10pt;
+	border-radius: 20px;
+	border: thin solid silver;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+nav [type=button]:hover {
+	border-color: blue;
+}
+
+nav [value="Web design"] {
+	background-color: #6495ED;
+	color: #FFFFFF;
+}
+
+/*---------------------MAIN----------------------------*/
+#page-title {
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 50px;
+}
+#page-subtitle {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	opacity: 0.8;
+}
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15pt;
+	width: 15%;
+	height: 25pt;
+	border-radius: 40px;
+	padding-top: 15px;
+	padding-left: 20px;
+	opacity: 0.6;
+	font-size: 16px;
+	resize: none;
+}
+
+#under-title-line {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 86%;
+	opacity: 0.3;
+	margin-top: 18pt;
+}
+
+#above-pictures, #above-pictures td {
+	font-size: 14px;
+}
+
+#above-pictures {
+	margin-left: 150px;
+	margin-top: 30pt;
+}
+
+#name1, #name2 {
+	font-weight: bold;
+}
+
+#name3, #name4 {
+	opacity: 0.4;
+}
+
+#name1, #name2, #name3 {
+	padding-right: 15pt;
+}
+
+/*--------------------------PICTURES----------------------*/
+#pictures {
+	display: block;
+	margin-left: 120px;
+	margin-right: 300pt;
+	border-spacing: 20pt 50pt;
+	border-collapse: separate;
+	margin-top: -50px;
+}
+
+
+#pictures td {
+	width: 370pt;
+	border-radius: 5pt;
+	border: solid grey 1pt;
+	height: 170pt;
+	background-color: lavender; 
+}
+
+#pictures img {
+	width: 300pt;
+	height: 200pt;
+}
+
+#table2 td {
+	background-color: blue;
+}
