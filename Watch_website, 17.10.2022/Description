@@ -1,0 +1,11 @@
+This is my first site that I did with a YouTube-programmer (step by step). I have managed to get to know smth new:
+
+tinypng.com - to make a photo size smaller with no reduction of the quality
+@2x - to add this to the name of the photo that has a size twice more than the original one.
+Button and Button with the link. The first is if there is an action happenning at the same page. The second is for an action happenning at some other page.
+src set - for a picture with different sizes
+and
++ classes to mention in every paragraph
+
+headings are important for the semantical sence
+SHIFT+TAB to move the block to the left / TAB - to the right (in HTML)
